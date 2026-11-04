@@ -10,7 +10,7 @@ async function Edicao({ params }: { params: Promise<{ id: string }> }) {
   await connection();
   const { id } = await params;
   const tarefa = await createCaller({})
-    .tarefa.obter({ id })
+    .tasks.get({ id })
     .catch(() => null);
   if (!tarefa) notFound();
 
