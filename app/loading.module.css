@@ -1,0 +1,23 @@
+.carregando {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 12px;
+}
+
+.circulo {
+  width: 36px;
+  height: 36px;
+  border: 4px solid #ddd;
+  border-top-color: #212121;
+  border-radius: 50%;
+  animation: rotate 0.8s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

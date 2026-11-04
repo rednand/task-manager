@@ -1,0 +1,39 @@
+.pagina {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 70rem;
+  padding: 2.5rem 1.5rem;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.botaoPrimario {
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  background: var(--primaria);
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.botaoPrimario:hover {
+  background: var(--primaria-escura);
+}
