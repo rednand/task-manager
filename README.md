@@ -25,7 +25,7 @@ Aplicação de gerenciamento de tarefas desenvolvida com Next.js (App Router), u
 
 ## Tecnologias
 
-- Next.js 15 (App Router)
+- Next.js 16 (App Router)
 - React
 - TypeScript
 - tRPC
