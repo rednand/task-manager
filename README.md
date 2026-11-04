@@ -25,7 +25,7 @@ Aplicação de gerenciamento de tarefas desenvolvida com Next.js (App Router), u
 
 ## Tecnologias
 
-- Next.js 15 (App Router)
+- Next.js 16 (App Router)
 - React
 - TypeScript
 - tRPC
@@ -62,7 +62,7 @@ npm start
 
 ## Decisões técnicas
 
-- **Next.js 15:** utilizada a versão instalada pelo `create-next-app`, superior à versão 15 solicitada.
+- **Next.js 16:** utilizada a versão instalada pelo `create-next-app`, superior à versão 15 solicitada.
 - **Server Components e Client Components:** separação entre busca inicial de dados no servidor e interações que exigem execução no navegador.
 - **tRPC:** utilização de procedimentos tipados para organizar as operações do backend e compartilhar os tipos entre cliente e servidor.
 - **createCaller:** chamadas diretas aos procedimentos tRPC nos Server Components, evitando requisições HTTP desnecessárias dentro do próprio servidor.
